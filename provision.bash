@@ -29,6 +29,7 @@ logAndPrint "01. on fait le ménage et on met à  jour notre systeme."
 apt-get clean all       2>&1 | tee -a $LogFile
 apt-get update          2>&1 | tee -a $LogFile
 apt-get dist-upgrade -y 2>&1 | tee -a $LogFile
+apt-get install vim  -y 2>&1 | tee -a $LogFile
 
 
 logAndPrint "###"

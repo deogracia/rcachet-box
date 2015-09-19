@@ -16,6 +16,13 @@ git clone git@github.com:deogracia/rcachet.git
 vagrant up
 ```
 
+## Cachet dashboard defaults
+ * http://localhost:8080
+ * admin credentials
+  * login: admin
+  * mail: cachet@example.com
+  * password: admin
+
 That's all :D
 
 
