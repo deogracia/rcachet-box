@@ -10,8 +10,8 @@ my dev env :D
 ```
 git clone git@github.com:deogracia/rcachet-box.git
 cd rcachet-box
-git clone git@bitbucket.org:deogracia/provisionning.git
-git clone git@github.com:deogracia/rcachet.git
+git clone https://bitbucket.org/deogracia/provisionning.git
+git clone https://github.com/deogracia/rcachet
 
 vagrant up
 ```
