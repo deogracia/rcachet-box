@@ -21,7 +21,7 @@ vagrant up
  * admin credentials
   * login: admin
   * mail: cachet@example.com
-  * password: admin
+  * password: password
 
 That's all :D
 
