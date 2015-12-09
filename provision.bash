@@ -81,3 +81,8 @@ logAndPrint "###"
 logAndPrint "03.03 On injecte les données de base."
 /usr/bin/mysql cachet < /vagrant/files/basic_settings.sql 2>&1 | tee -a $LogFile
 /usr/bin/mysql cachet < /vagrant/files/set_users.sql 2>&1 | tee -a $LogFile
+
+logAndPrint "###"
+logAndPrint "###"
+logAndPrint "###"
+logAndPrint "That's all, folks!."
